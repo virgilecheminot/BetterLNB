@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "BetterLNB",
+    "version": "0.1",
+    "content_scripts": [
+        {
+        "matches": ["*://*.labnbook.fr/report*"],
+        "js": ["content.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default-title": "BetterLNB"
+    }
+}
