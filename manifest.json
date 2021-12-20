@@ -8,5 +8,11 @@
         "matches": ["*://*.labnbook.fr/report*"],
         "js": ["content.js"]
         }
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs"
     ]
 }
